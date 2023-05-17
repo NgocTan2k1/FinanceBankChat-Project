@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "prettier.jsxSingleQuote": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "cSpell.words": ["cafef", "fireant", "vietstock"]
+}

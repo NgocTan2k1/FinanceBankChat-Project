@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  frontend:
+    container_name: "fbc-frontend-test"
+    image: "fbc-frontend:1.0.0"
+    ports:
+      - "3000:3000"

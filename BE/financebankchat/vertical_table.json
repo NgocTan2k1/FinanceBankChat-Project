@@ -1,0 +1,34 @@
+{
+    "result":{
+        "table":{
+            "bad_debt": {
+                "title":"bảng bad_debt",
+                "fireant": {
+                    "dataRaw": [],
+                    "years": []
+                },
+                "vietstock": {
+                    "dataRaw": [],
+                    "years": []
+                }
+            },
+            "total_debt":{
+               "title": "bảng total_debt",
+                "fireant": {
+                    "dataRaw": [],
+                    "years": []
+                },
+                "vietstock": {
+                    "dataRaw": [],
+                    "years": []
+                }
+            }
+        },
+        "element": {
+            "bad_debt":"nợ xấu",
+            "total_debt": "tổng nợ"
+        },
+        "types": "vertical_table | line | text",
+        "message": "đây là thông tin: \n- nợ xấu\n- tổng nợ"
+    }
+}

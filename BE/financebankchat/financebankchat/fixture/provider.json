@@ -1,0 +1,26 @@
+[
+    {
+        "model": "core.provider",
+        "pk": 1,
+        "fields": {
+            "name": "fireant",
+            "alias": "fireant.vn"
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": 2,
+        "fields": {
+            "name": "vietstock",
+            "alias": "vietstock.vn"
+        }
+    },
+    {
+        "model": "core.provider",
+        "pk": 3,
+        "fields": {
+            "name": "cafef",
+            "alias": "cafef.vn"
+        }
+    }
+]

@@ -1,0 +1,92 @@
+{
+    "result": {
+        "table": {
+            "bad_debt": {
+                "title": "bảng bad_debt",
+                "fireant": {
+                    "ACB": {
+                        "dataRaw": [
+                            2.5766591659487705,
+                            0.0
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    },
+                    "ABB": {
+                        "dataRaw": [
+                            0.0,
+                            2.7433996259862417
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    }
+                },
+                "vietstock": {
+                    "ACB": {
+                        "dataRaw": [
+                            2.5766591659487705,
+                            0.0
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    },
+                    "ABB": {
+                        "dataRaw": [
+                            0.0,
+                            2.7433996259862417
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    }
+                },
+                "years": [
+                    2017,
+                    2018
+                ]
+            },
+            "total_debt": {
+                "title": "bảng total_debt",
+                "fireant": {
+                    "ACB": {
+                        "dataRaw": [
+                            284316120.3839724,
+                            329333241.0
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    },
+                    "ABB": {
+                        "dataRaw": [
+                            84503069.0,
+                            89997894.80845888
+                        ],
+                        "years": [
+                            2017,
+                            2018
+                        ]
+                    }
+                },
+                "years": [
+                    2017,
+                    2018
+                ]
+            }
+        },
+        "elements": [
+            "bad_debt",
+            "total_debt"
+        ],
+        "types": "vertical",
+        "message": "Đây là thông tin: \n -bad_debt\n -total_debt"
+    }
+}

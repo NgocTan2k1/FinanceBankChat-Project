@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .chat-window {
+            position: fixed;
+            bottom: 0;
+            right: 30px;
+            width: 300px;
+            height: 400px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px #ccc;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        .chat-header h3 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .chat-body {
+            height: 300px;
+            overflow-y: scroll;
+        }
+
+        .chat-message {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            background-color: #f1f1f1;
+        }
+
+        .chat-message.right {
+            background-color: #dcf8c6;
+            float: right;
+        }
+
+        .chat-footer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        .chat-footer input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .chat-footer button {
+            margin-left: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #0084ff;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="chat-window">
+        <div class="chat-header">
+            <h3>Chat với GPT</h3>
+        </div>
+        <div class="chat-body">
+            <div class="chat-message">
+                <p>Hello!</p>
+            </div>
+            <div class="chat-message right">
+                <p>Xin chào!</p>
+            </div>
+            <div class="chat-message">
+                <p>Hello!</p>
+            </div>
+            <div class="chat-message right">
+                <p>Xin chào!</p>
+            </div>
+            <div class="chat-message">
+                <p>Hello!</p>
+            </div>
+            <div class="chat-message right">
+                <p>Xin chào!</p>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Nhập tin nhắn">
+            <button>Gửi</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

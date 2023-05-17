@@ -1,0 +1,218 @@
+[
+    {
+        "model": "core.stock",
+        "pk": 1,
+        "fields": {
+            "name": "ABB",
+            "alias": "Ngân hàng TMCP An Bình"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 2,
+        "fields": {
+            "name": "ACB",
+            "alias": "Ngân hàng TMCP Á Châu"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 3,
+        "fields": {
+            "name": "AGR",
+            "alias": "Ngân hàng TMCP Đông Á"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 4,
+        "fields": {
+            "name": "BID",
+            "alias": "Ngân hàng TMCP Đầu tư và Phát triển Việt Nam"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 5,
+        "fields": {
+            "name": "BVB",
+            "alias": "Ngân hàng TMCP Bảo Việt"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 6,
+        "fields": {
+            "name": "CTG",
+            "alias": "Ngân hàng TMCP Công Thương Việt Nam (VietinBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 7,
+        "fields": {
+            "name": "EIB",
+            "alias": "Ngân hàng TMCP Xuất Nhập Khẩu Việt Nam (Eximbank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 8,
+        "fields": {
+            "name": "HDB",
+            "alias": "Ngân hàng TMCP Phát triển Tp. Hồ Chí Minh (HDBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 9,
+        "fields": {
+            "name": "KLB",
+            "alias": "Ngân hàng TMCP Kiên Long"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 10,
+        "fields": {
+            "name": "LPB",
+            "alias": "Ngân hàng TMCP Liên Việt Post (LienVietPostBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 11,
+        "fields": {
+            "name": "MBB",
+            "alias": "Ngân hàng TMCP Quân đội (MB Bank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 12,
+        "fields": {
+            "name": "MSB",
+            "alias": "Ngân hàng TMCP Hàng Hải Việt Nam (Maritime Bank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 13,
+        "fields": {
+            "name": "NAB",
+            "alias": "Ngân hàng TMCP Nam Á"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 14,
+        "fields": {
+            "name": "NVB",
+            "alias": "Ngân hàng TMCP Quốc Dân (National Citizen Bank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 15,
+        "fields": {
+            "name": "OCB",
+            "alias": "Ngân hàng TMCP Phương Đông (OCB)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 16,
+        "fields": {
+            "name": "PGB",
+            "alias": "Ngân hàng TMCP Xăng dầu Petrolimex (PGBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 17,
+        "fields": {
+            "name": "SCB",
+            "alias": "Ngân hàng TMCP Sài Gòn (SaigonBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 18,
+        "fields": {
+            "name": "SGB",
+            "alias": "Ngân hàng TMCP Sài Gòn Công Thương (Saigonbank - CT)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 19,
+        "fields": {
+            "name": "SHB",
+            "alias": "Ngân hàng TMCP Sài Gòn - Hà Nội (SHB)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 20,
+        "fields": {
+            "name": "SSB",
+            "alias": "Ngân hàng TMCP Sài Gòn thương tín (Sacombank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 21,
+        "fields": {
+            "name": "STB",
+            "alias": "Ngân hàng TMCP Sài Gòn thương Tín chi nhánh Tp. Hồ Chí Minh (Sacombank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 22,
+        "fields": {
+            "name": "TCB",
+            "alias": "Ngân hàng TMCP Kỹ thương Việt Nam (Techcombank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 23,
+        "fields": {
+            "name": "TPB",
+            "alias": "Ngân hàng TMCP Tiên Phong (TPBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 24,
+        "fields": {
+            "name": "VAB",
+            "alias": "Ngân hàng TMCP Việt Á"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 25,
+        "fields": {
+            "name": "VPB",
+            "alias": "Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 26,
+        "fields": {
+            "name": "VCB",
+            "alias": "Ngân hàng TMCP Ngoại Thương Việt Nam (Vietcombank)"
+        }
+    },
+    {
+        "model": "core.stock",
+        "pk": 27,
+        "fields": {
+            "name": "VIB",
+            "alias": "Ngân hàng TMCP Quốc tế (VIB)"
+        }
+    }
+]
