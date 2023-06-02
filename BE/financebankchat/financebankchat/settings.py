@@ -91,26 +91,27 @@ WSGI_APPLICATION = 'financebankchat.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': config('POSTGRES_DATABASE', default='docker'),
-        'USER': config('POSTGRES_USER', default=''),
-        'PASSWORD': config('POSTGRES_PASSWORD', default=''),
-        'HOST': config('POSTGRES_HOST', default='3.25.234.51'),
-        'PORT': config('POSTGRES_PORT', default='5432'),
-        'CONN_MAX_AGE': None,
-        'TEST':{
-            'NAME': 'test_database'
-        },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': config('POSTGRES_DATABASE', default='docker'),
+#         'USER': config('POSTGRES_USER', default=''),
+#         'PASSWORD': config('POSTGRES_PASSWORD', default=''),
+#         'HOST': config('POSTGRES_HOST', default='3.25.234.51'),
+#         'PORT': config('POSTGRES_PORT', default='5432'),
+#         'CONN_MAX_AGE': None,
+#         'TEST':{
+#             'NAME': 'test_database'
+#         },
+#     }
+# }
 
 
 # Password validation
